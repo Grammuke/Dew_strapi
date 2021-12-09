@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_intertwine_about_intertwine_abouts",
+  "info": {
+    "name": "intertwineAbout",
+    "icon": "balance-scale-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "aboutIntertwinedUnits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "intertwined-units.about-intertwined-units"
+    }
+  }
+}

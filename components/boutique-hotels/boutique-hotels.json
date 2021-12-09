@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_boutique_hotels_boutique_hotels",
+  "info": {
+    "name": "boutiqueHotels",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "summary": {
+      "type": "text"
+    },
+    "hotelViews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hotel-views.hotel-views"
+    }
+  }
+}

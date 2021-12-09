@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_explore_explores",
+  "info": {
+    "name": "explore",
+    "icon": "angle-double-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "exploreItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "explore-items.explore-items"
+    }
+  }
+}

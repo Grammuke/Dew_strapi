@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_experience_experiences",
+  "info": {
+    "name": "experience",
+    "icon": "at",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "experience-images.experience-images"
+    }
+  }
+}

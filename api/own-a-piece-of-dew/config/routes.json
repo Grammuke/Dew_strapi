@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/own-a-piece-of-dew",
+      "handler": "own-a-piece-of-dew.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/own-a-piece-of-dew",
+      "handler": "own-a-piece-of-dew.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/own-a-piece-of-dew",
+      "handler": "own-a-piece-of-dew.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

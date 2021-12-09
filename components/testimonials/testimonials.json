@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_testimonials_testimonials",
+  "info": {
+    "name": "testimonials",
+    "icon": "baby-carriage"
+  },
+  "options": {},
+  "attributes": {
+    "testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonial-list-item.testimonials"
+    }
+  }
+}

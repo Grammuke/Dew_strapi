@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_stay_in_touch_stay_in_touches",
+  "info": {
+    "name": "stayInTouch",
+    "icon": "bacon"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text"
+    }
+  }
+}

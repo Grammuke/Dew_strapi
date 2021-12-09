@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_experience_images_experience_images",
+  "info": {
+    "name": "experienceImages",
+    "icon": "award",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

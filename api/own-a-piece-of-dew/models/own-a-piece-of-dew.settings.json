@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "own_a_piece_of_dews",
+  "info": {
+    "name": "own-a-piece-of-dew"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero"
+    },
+    "donation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "donation.donation"
+    }
+  }
+}

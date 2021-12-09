@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_design_intertwine_design_intertwines",
+  "info": {
+    "name": "designIntertwine",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "details": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "designExtras": {
+      "type": "component",
+      "repeatable": true,
+      "component": "design-extras.design-extras"
+    }
+  }
+}

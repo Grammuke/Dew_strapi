@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_testimonials_testimonials",
+  "info": {
+    "name": "testimonial",
+    "icon": "audio-description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "testimonial": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_intertwined_intertwineds",
+  "info": {
+    "name": "intertwined",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "summary": {
+      "type": "richtext"
+    },
+    "units": {
+      "type": "component",
+      "repeatable": true,
+      "component": "intertwined-units.intertwined-units"
+    }
+  }
+}

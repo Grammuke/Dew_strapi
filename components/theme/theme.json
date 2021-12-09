@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_theme_themes",
+  "info": {
+    "name": "theme",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "themeUnits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "design-extras.design-extras"
+    }
+  }
+}

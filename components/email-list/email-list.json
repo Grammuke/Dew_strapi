@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_email_list_email_lists",
+  "info": {
+    "name": "emailList",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "string"
+    },
+    "emailTitle": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events_lists",
+  "info": {
+    "name": "events-list",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "eventDate": {
+      "type": "datetime",
+      "required": true
+    },
+    "valid": {
+      "type": "boolean"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

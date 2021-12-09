@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_donation_donations",
+  "info": {
+    "name": "donation",
+    "icon": "arrow-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "donationExtras": {
+      "type": "component",
+      "repeatable": true,
+      "component": "design-extras.design-extras"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

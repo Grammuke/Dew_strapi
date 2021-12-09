@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_section_image_section_images",
+  "info": {
+    "name": "sectionImage",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

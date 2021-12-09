@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "designs",
+  "info": {
+    "name": "design"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero"
+    },
+    "designIntertwine": {
+      "type": "component",
+      "repeatable": false,
+      "component": "design-intertwine.design-intertwine"
+    }
+  }
+}

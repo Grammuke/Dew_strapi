@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_intertwined_units_intertwined_units",
+  "info": {
+    "name": "intertwinedUnits",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
